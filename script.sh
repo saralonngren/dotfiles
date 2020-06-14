@@ -74,14 +74,14 @@ sudo apt install redis
 
 echo 🗝 POSTGRES ----------------------------
 sudo apt-get install mysql-server mysql-client libmysqlclient-dev
-sudo apt install postgresql-11 libpq-dev
+sudo apt-get install postgresql postgresql-contrib libpq-dev
 
 read -p "what postgre name do you want to use? : " usernamesql
 sudo -u postgres createuser $usernamesql -s
 
 #To add password to your user, you have to execute the following lines.
 # sudo -u postgres psql
-# postgres=# \password chris
+# postgres=# ALTER USER username PASSWORD 'your_password';
 
 echo -----------------------------------
 echo I cant live without you ❤️
