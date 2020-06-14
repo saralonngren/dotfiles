@@ -1,6 +1,6 @@
 # Dotfiles 🤖
 
-Hello Stranger!🧡 
+Hello Stranger! 🧡 
 
 Welcome to my dotfiles script.
 
