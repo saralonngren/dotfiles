@@ -6,7 +6,7 @@ echo -----------------------------------
 
 #A few programs need a pre setup to download and install.
 echo -----------------------------------
-echo A little help to some programs 🧐
+echo A little help for some programs 🧐
 echo -----------------------------------
 
 sudo apt install curl
