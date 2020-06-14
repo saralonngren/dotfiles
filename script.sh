@@ -86,20 +86,20 @@ echo -----------------------------------
 echo I cant live without you ❤️
 echo -----------------------------------
 
-🗝 SPOTIFY --------------------------------
+echo 🗝 SPOTIFY --------------------------------
 curl -sS https://download.spotify.com/debian/pubkey.gpg | sudo apt-key add - 
 echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
 sudo apt-get update && sudo apt-get install spotify-client
 
-🗝 SLACK ----------------------------------
+echo 🗝 SLACK ----------------------------------
 sudo snap install slack --classic
 sudo apt-get update
 sudo apt-get upgrade slack-desktop
 
-🗝 GOOGLE CHROME --------------------------
+echo 🗝 GOOGLE CHROME --------------------------
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb
 
-🗝 SKYPE ----------------------------------
+echo 🗝 SKYPE ----------------------------------
 wget https://go.skype.com/skypeforlinux-64.deb
 sudo apt install ./skypeforlinux-64.deb
