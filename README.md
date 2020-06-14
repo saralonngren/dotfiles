@@ -1,6 +1,8 @@
 # Dotfiles 🤖
 
-Hello Stranger! 🧡 Welcome to my dotfiles script.
+Hello Stranger!🧡 
+
+Welcome to my dotfiles script.
 
 If you want to use, download the script and run where your dotfiles will be on your computer.
 
