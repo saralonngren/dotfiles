@@ -34,10 +34,11 @@ echo -----------------------------------
 echo Lets code 👾
 echo -----------------------------------
 
-sudo apt-get install rvm
+
 sudo apt install zsh
 chsh -s $(which zsh)
 sudo apt install yarn
+sudo apt-get install rvm
 sudo apt-get install vim
 sudo apt-get install git
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
