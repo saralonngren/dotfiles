@@ -72,13 +72,14 @@ asdf global nodejs $nodeversion
 echo 🗝 REDIS -------------------------------
 sudo apt install redis
 
-# echo 🗝 POSTGRES ----------------------------
-# sudo apt-get install mysql-server mysql-client libmysqlclient-dev
-# sudo apt install postgresql-11 libpq-dev
+echo 🗝 POSTGRES ----------------------------
+sudo apt-get install mysql-server mysql-client libmysqlclient-dev
+sudo apt install postgresql-11 libpq-dev
 
-# read -p "what postgre name do you want to use? : " usernamesql
-# sudo -u postgres createuser $usernamesql -s
+read -p "what postgre name do you want to use? : " usernamesql
+sudo -u postgres createuser $usernamesql -s
 
+#To add password to your user, you have to execute the following lines.
 # sudo -u postgres psql
 # postgres=# \password chris
 
