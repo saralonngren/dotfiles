@@ -26,6 +26,7 @@ echo -----------------------------------
 echo Lets update some dependencies 💾
 echo -----------------------------------
 
+sudo apt install build-essential git automake autoconf libreadline-dev libncurses-dev libssl-dev libyaml-dev libxslt-dev libffi-dev libtool unixodbc-dev unzip curl zlib1g-dev sqlite3 libsqlite3-dev
 sudo apt-get update
 sudo apt upgrade
 
