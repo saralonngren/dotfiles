@@ -1,5 +1,3 @@
 # Dotfiles
 
-Primeira tentativa de criar um dotfile :) 
-
-Em construção \o/
+Primeira tentativa, em construção \o/
