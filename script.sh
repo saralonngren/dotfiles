@@ -83,6 +83,9 @@ sudo -u postgres createuser $usernamesql -s
 # sudo -u postgres psql
 # postgres=# ALTER USER username PASSWORD 'your_password';
 
+echo 🗝 POSTMAN ----------------------------
+sudo snap install postman
+
 echo -----------------------------------
 echo I cant live without you ❤️
 echo -----------------------------------
