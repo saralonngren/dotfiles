@@ -60,6 +60,9 @@ asdf install ruby $rubyversion
 asdf global ruby $rubyversion
 gem install bundler -v '~> 1.0'
 
+echo 🗝 ZEALDOC ---------------------------
+sudo apt-get install zeal
+
 echo 🗝 NODE ------------------------------
 asdf plugin-add nodejs https://github.com/asdf-vm/asdf-nodejs.git
 bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
