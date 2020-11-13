@@ -38,6 +38,7 @@ read -p "Enter your github email : " email
 git config --global user.email "$email"
 
 echo 🗝 ASDF ------------------------------
+# Check the latest version on https://asdf-vm.com/#/core-manage-asdf
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.7.4
 echo -e '\n. $HOME/.asdf/asdf.sh' >> ~/.zshrc
 echo -e '\n. $HOME/.asdf/completions/asdf.bash' >> ~/.zshrc
