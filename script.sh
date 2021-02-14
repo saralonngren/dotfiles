@@ -24,9 +24,6 @@ sudo apt install zsh
 chsh -s $(which zsh)
 #Need to close and reopen terminal.
 
-echo 🗝 Oh-my-zsh -------------------------
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
 echo 🗝 GIT -------------------------------
 sudo apt-get update
 sudo apt-get install git
@@ -36,6 +33,9 @@ read -p "Enter your github name : " name
 git config --global user.name "$name"
 read -p "Enter your github email : " email
 git config --global user.email "$email"
+
+echo 🗝 Oh-my-zsh -------------------------
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 echo 🗝 ASDF ------------------------------
 # Check the latest version on https://asdf-vm.com/#/core-manage-asdf
